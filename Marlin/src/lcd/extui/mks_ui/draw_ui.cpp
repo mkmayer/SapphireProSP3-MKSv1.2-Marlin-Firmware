@@ -139,7 +139,7 @@ void gCfgItems_init() {
   gCfgItems.trammingPos[3].y  = Y_MAX_POS - 30;
   gCfgItems.trammingPos[4].x  = X_BED_SIZE / 2;
   gCfgItems.trammingPos[4].y  = Y_BED_SIZE / 2;
-  gCfgItems.cloud_enable      = false;
+  gCfgItems.cloud_enable      = true;
   gCfgItems.wifi_mode_sel = STA_MODEL;
   gCfgItems.fileSysType   = FILE_SYS_SD;
   gCfgItems.wifi_type     = ESP_WIFI;

@@ -88,9 +88,9 @@
 #define E0_STEP_PIN                         PD6
 #define E0_DIR_PIN                          PD3
 
-#define E1_ENABLE_PIN                       PA3
-#define E1_STEP_PIN                         PA6
-#define E1_DIR_PIN                          PA1
+//#define E1_ENABLE_PIN                       PA3
+//#define E1_STEP_PIN                         PA6
+//#define E1_DIR_PIN                          PA1
 
 //
 // Temperature Sensors
@@ -143,7 +143,7 @@
 //
 #if HAS_TFT_LVGL_UI
   #define MT_DET_1_PIN                      PA4
-  #define MT_DET_2_PIN                      PE6
+  //#define MT_DET_2_PIN                      PE6
   #define MT_DET_PIN_STATE                  LOW
 
   #define WIFI_IO0_PIN                      PC13
@@ -153,7 +153,7 @@
   //#define POWER_LOSS_PIN                  PA2   // PW_DET
   //#define PS_ON_PIN                       PB2   // PW_OFF
   #define FIL_RUNOUT_PIN                    PA4
-  #define FIL_RUNOUT2_PIN                   PE6
+  //#define FIL_RUNOUT2_PIN                   PE6
 #endif
 
 //
