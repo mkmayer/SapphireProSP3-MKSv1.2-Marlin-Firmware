@@ -1,3 +1,16 @@
+<h2>Twoo Trees Saphire Pro SP-3 from Marlin bugfix-2.1.x</h2>
+
+Initial commit contains working firmware for unboxed printer. Using TFT_LVGL_UI. Filament runout sensor is not working in this mode.
+
+Build and copy to SD card:
+<ul>
+  <li>file MksWifi.bin to flash Wifi module (Mks esp8266). AP name and password in AP mode can be set before build in wifi_module.h</li>
+  <li>directory assets from .pio build</li>
+  <li>file Robin_nan35.bin from .pio build</li>
+</ul>
+
+<h2>Original forked branch Marlin bugfix-2.1.x</h2>
+
 <p align="center"><img src="buildroot/share/pixmaps/logo/marlin-outrun-nf-500.png" height="250" alt="MarlinFirmware's logo" /></p>
 
 <h1 align="center">Marlin 3D Printer Firmware</h1>
