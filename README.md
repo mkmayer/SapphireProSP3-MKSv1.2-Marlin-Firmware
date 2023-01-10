@@ -1,6 +1,6 @@
-<h2>Twoo Trees Saphire Pro SP-3 from Marlin 2.1.x</h2>
+<h2>Twoo Trees Saphire Pro SP-3 from Marlin 2.0.x</h2>
 
-Initial commit contains working firmware for printer with 4xTMX2225 drivers. Using TFT_COLOR_UI. TFT_LVGL_UI has layer shift bug when using TMC2xxx drivers.
+Initial commit contains working firmware for printer with 4xTMX2225 drivers. TFT_LVGL_UI has layer shift bug when using TMC2xxx drivers. Switch to TFT_COLOR_UI helps.
 
 Build and copy to SD card:
 <ul>
