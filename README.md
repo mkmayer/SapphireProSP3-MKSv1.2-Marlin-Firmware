@@ -1,4 +1,4 @@
-<h2>Twoo Trees Saphire Pro SP-3 from Marlin bugfix-2.1.x</h2>
+<h2>Two Trees Saphire Pro SP-3 with Marlin bugfix-2.1.x</h2>
 
 Initial commit contains working firmware for unboxed printer. Using TFT_LVGL_UI. Filament runout sensor is not working in this mode.
 
