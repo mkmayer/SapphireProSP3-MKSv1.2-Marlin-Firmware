@@ -1,3 +1,14 @@
+<h2>Twoo Trees Saphire Pro SP-3 from Marlin 2.1.x</h2>
+
+Initial commit contains working firmware for printer with 4xTMX2225 drivers. Using TFT_COLOR_UI. TFT_LVGL_UI has layer shift bug when using TMC2xxx drivers.
+
+Build and copy to SD card:
+<ul>
+  <li>file Robin_nan35.bin from .pio build</li>
+</ul>
+
+<h2>Original forked branch Marlin bugfix-2.1.x</h2>
+
 <p align="center"><img src="buildroot/share/pixmaps/logo/marlin-outrun-nf-500.png" height="250" alt="MarlinFirmware's logo" /></p>
 
 <h1 align="center">Marlin 3D Printer Firmware</h1>
