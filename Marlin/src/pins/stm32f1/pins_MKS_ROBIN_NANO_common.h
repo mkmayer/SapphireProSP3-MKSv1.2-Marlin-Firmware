@@ -88,9 +88,20 @@
 #define E0_STEP_PIN                         PD6
 #define E0_DIR_PIN                          PD3
 
-#define E1_ENABLE_PIN                       PA3
-#define E1_STEP_PIN                         PA6
-#define E1_DIR_PIN                          PA1
+// #define E1_ENABLE_PIN                       PA3 // USED FOR X-UART
+// #define E1_STEP_PIN                         PA6 // USED FOR Y-UART
+// #define E1_DIR_PIN                          PA1 // USED FOR Z-UART
+
+// UART 
+#define X_SERIAL_RX_PIN PA3
+#define X_SERIAL_TX_PIN PA3
+
+#define Y_SERIAL_TX_PIN PA6
+#define Y_SERIAL_RX_PIN PA6
+
+#define Z_SERIAL_TX_PIN PA1
+#define Z_SERIAL_RX_PIN PA1
+
 
 //
 // Temperature Sensors
